@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77F88AC3-5E4F-FABF-E411-8F366D098C43" containerWithKeyObject="68DC881C-3276-440C-7219-82526F073C86" localFKIndex="6646FEB3-0FE6-4E9A-523D-E3678D5E5AC8" name="T_GRW_ADDRESS_T_GRW_COMPANY_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>B6F2BC12-41A4-12EE-13A5-CFA264B33090</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<referredTableLongName>T_GRW_COMPANY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61AD3F8F-4F9E-786B-071E-B54A9456DEF8</referredTableID>
+<keyObject>21061C97-B196-6CD2-A846-8564E450752F</keyObject>
+<referredKeyID>21061C97-B196-6CD2-A846-8564E450752F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_company</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

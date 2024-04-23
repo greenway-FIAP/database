@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AEE565E-C0B5-5EB6-DE79-A5F50325B4F6" containerWithKeyObject="9AD11415-768E-0978-AEEF-87BE2A275AD7" localFKIndex="88B08676-F075-65D3-86AA-926085FCB247" name="T_GRW_MEASUREMENT_T_GRW_MEASUREMENT_TYPE_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>1E469CD2-66A0-4455-BB5C-2FF1D79CC308</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<referredTableLongName>T_GRW_MEASUREMENT_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E84518E-FC3E-8AF0-2EEB-942A13BA1857</referredTableID>
+<keyObject>63073900-EDDB-F529-69CB-18205CC459C7</keyObject>
+<referredKeyID>63073900-EDDB-F529-69CB-18205CC459C7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_measurement_type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8BF2A2A5-1FB7-0F98-056D-AA43997B8A68" mainViewID="1AF56FF0-F08D-6C0E-5C4E-86DE285B372A">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 14:12:23 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

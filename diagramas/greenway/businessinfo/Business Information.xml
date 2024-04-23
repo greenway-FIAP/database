@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2CC9B2ED-E748-1EFA-AA1E-8F26C9948724">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 14:12:23 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

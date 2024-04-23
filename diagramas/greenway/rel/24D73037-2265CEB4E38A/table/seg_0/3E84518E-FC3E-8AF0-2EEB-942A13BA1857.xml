@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E84518E-FC3E-8AF0-2EEB-942A13BA1857" name="T_GRW_MEASUREMENT_TYPE">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>7D058AC4-88BC-E0DC-199C-DE99A25CCF4B</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_measurement_type" id="5676A1A0-9087-8FD5-A04C-EC51C4A2AFFB">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>DF259098-6BD9-3DBF-977E-7C42367994AE</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_name" id="D325B4D7-4070-3753-E604-77CEF90A2AD7">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>A4952EEB-778B-51C7-0D55-3F9095EAE473</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_description" id="BC8DDA16-CB0E-335D-8E9C-BE5F24D54B62">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>C0B16379-E718-F0B9-ED38-96FA2A0FEEAD</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_created_at" id="F9183886-1D0A-0C25-C85E-36B124EFFE36">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>72609006-8B3B-0447-1588-1B9B0B1FD610</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_updated_at" id="BD7B9052-7F4A-940F-7A27-C2902E58AD05">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>476BFC64-EAED-C927-7956-0E5399331BEF</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_finished_at" id="664F8C6F-521E-10FF-1A9F-7B5CE2E60612">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>93628E62-3EB7-AFA3-6B84-8838DAB70F2A</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63073900-EDDB-F529-69CB-18205CC459C7" name="T_GRW_MEASUREMENT_TYPE_PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>D0141E25-B666-4F7F-D9AF-8ECE9DF6211D</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5676A1A0-9087-8FD5-A04C-EC51C4A2AFFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="884600F6-99C1-AD33-F9FF-B10F1C11C9EB" containerWithKeyObject="98AE4D98-9E78-6BB2-1393-EC204151A8A7" localFKIndex="02B92586-3E1C-19D1-0DA7-B7B6916C5D81" name="T_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS_T_GRW_SUSTAINABLE_GOAL_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>A9EF4CA8-0F02-ECBC-B43F-B4118809A1AF</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<referredTableLongName>T_GRW_SUSTAINABLE_GOAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AE3AA84-E2AA-2241-1C57-B16CB20179BD</referredTableID>
+<keyObject>18D18B1D-1353-35AA-C517-651471D353EA</keyObject>
+<referredKeyID>18D18B1D-1353-35AA-C517-651471D353EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sustainable_goal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

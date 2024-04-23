@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="330FEBF2-55BE-9435-1F8B-C527A00BB878" name="T_GRW_COMPANY_REPRESENTATIVE">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>A86F76AA-5031-06EC-248D-567BD0D06F83</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_company_representative" id="598025EC-E0B3-B14C-21A2-69A4560A8926">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>F6FD26C0-E745-6098-B507-CC5A4600D30A</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_GRW_USER_id_user" id="62BE015D-BC67-9222-4795-8D7E0AFAB34C">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>7ED5E5BC-922E-F39A-0FE3-D649F334AD97</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5045AFDE-F706-928B-AF4A-F47A9EC0D475" referredColumn="7BBA8B06-873C-E2D5-2982-1B1F3C7FDA27"/>
+</associations>
+</Column>
+<Column name="T_GRW_COMPANY_id_company" id="5292653C-5329-204E-61F1-DE1A3BBDC12A">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>E0643887-4AAB-BCA0-DDA8-49176610C7DD</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68244BAD-C8C9-F150-AE4E-9F9AD9E10EC0" referredColumn="3F0CCCF1-1360-A111-6982-AB5F1BB662DA"/>
+</associations>
+</Column>
+<Column name="nr_phone" id="60EA7FE7-8615-6D74-4D20-6DD5227C3A13">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>AE5FF335-7A4C-7B94-42CE-B063A00B02EF</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_role" id="17D77E18-7197-E4DE-0B32-097EFCB7ABF7">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>63A456B0-D580-2E41-4902-A21E6D6A9CC5</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_name" id="5F7BAF31-4FBD-E9B1-BFEE-023BC4EF128E">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>FD26EA24-B60E-1D3D-EC9B-C1F55380B338</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_created_at" id="5B4E4AE6-5E6B-4A3E-12E9-CF99A053363D">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>F2EEBEC4-53E0-7922-75C0-F98A4BC92B67</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_updated_at" id="7BE9E733-279F-5F81-7A01-F4F2A912B974">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>D5E9F087-A876-A712-2106-405EC8AE4285</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_finished_at" id="DE04728E-2E82-B077-91A3-93B6EFF083C1">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>76EA791B-AEC8-0FCB-4715-32E900E30A62</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31D15113-E7B9-E74F-AC4B-56EB0A1CE614" name="T_GRW_COMPANY_REPRESENTATIVE_PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>7343E574-84E0-096B-7677-D857B3B16BF6</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="598025EC-E0B3-B14C-21A2-69A4560A8926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AAB9EDB-7123-EEDA-E26D-6C4D3AF61484" name="T_GRW_COMPANY_REPRESENTATIVE__IDX">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>28DCDDAB-C7A9-091D-8AAD-7A7E47F3FAEE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="62BE015D-BC67-9222-4795-8D7E0AFAB34C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B18BA0C-A9E3-0EAC-0EAF-86940154CCEA" name="T_GRW_COMPANY_REPRESENTATIVE_T_GRW_USER_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>28DCDDAB-C7A9-091D-8AAD-7A7E47F3FAEE</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62BE015D-BC67-9222-4795-8D7E0AFAB34C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F5DF63F-F959-93D5-BF8D-2F73468354D2" name="T_GRW_COMPANY_REPRESENTATIVE_T_GRW_COMPANY_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>7DFF8889-AD0E-6B81-3C4D-E65EA1CFEF1E</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5292653C-5329-204E-61F1-DE1A3BBDC12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

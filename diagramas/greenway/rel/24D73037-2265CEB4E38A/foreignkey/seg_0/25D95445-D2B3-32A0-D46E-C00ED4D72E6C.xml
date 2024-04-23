@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25D95445-D2B3-32A0-D46E-C00ED4D72E6C" containerWithKeyObject="8AE3AA84-E2AA-2241-1C57-B16CB20179BD" localFKIndex="A088B5E4-F119-FC2B-8061-15006D8FF277" name="T_GRW_SUSTAINABLE_GOAL_T_GRW_BADGE_FK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:24:00 UTC</createdTime>
+<generatorID>D7325836-C526-4DE8-EBED-97D190524738</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<referredTableLongName>T_GRW_BADGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31505280-8468-E9C7-F18C-C2DC69219601</referredTableID>
+<keyObject>4B301185-8A08-D488-BACA-BD01E3E439D8</keyObject>
+<referredKeyID>4B301185-8A08-D488-BACA-BD01E3E439D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_badge</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

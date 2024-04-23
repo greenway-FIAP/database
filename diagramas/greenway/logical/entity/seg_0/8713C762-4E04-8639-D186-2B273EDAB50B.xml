@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8713C762-4E04-8639-D186-2B273EDAB50B" name="T_GRW_MEASUREMENT">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 14:38:58 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_measurement_type" id="294B99AB-0050-EDF9-123A-E9156ACF12C7">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:43:01 UTC</createdTime>
+<generatorID>1E469CD2-66A0-4455-BB5C-2FF1D79CC308</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DF259098-6BD9-3DBF-977E-7C42367994AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_measurement" id="2ABD3275-A89E-EFD7-D5DB-1EDFB08FD7B1">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:47:47 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_name" id="DFA010FF-126B-D273-7B86-62391CC30CD4">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 16:58:39 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_description" id="15C7842E-CB14-D5B2-78FE-A564B37D70FF">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 16:59:00 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_created_at" id="14D9151A-7769-984A-DE1E-7B803E3317E4">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:48:07 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_updated_at" id="84A7904B-0652-67A9-AB0E-471681E601F0">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:48:25 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_finished_at" id="D167C6DD-FB1E-8BB1-CFD7-515291CF61AA">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:48:45 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sustainable_goal" id="DD1317DC-E12D-3BEC-A821-66165BCCE086">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 17:00:58 UTC</createdTime>
+<generatorID>EEED1C46-969E-381C-0B13-C0A00EEBCB57</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<referedAttribute>3032649B-C058-98A2-9BA4-57084AABCE08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_improvement_measurement" id="F18DC2C8-2243-F983-DF01-9037CEF7820D">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 18:37:25 UTC</createdTime>
+<generatorID>7354DBF5-482E-E3FA-E568-D919E6833898</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<referedAttribute>6A6824FC-6451-2554-D3CB-C4420868B7EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3B825F9-0FF2-5C4A-F907-074DDDEE35B1" name="T_GRW_MEASUREMENT PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:48:05 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2ABD3275-A89E-EFD7-D5DB-1EDFB08FD7B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

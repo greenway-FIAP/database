@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21768B2D-6E9D-3C30-AB48-CDDF1456D890" name="T_GRW_PROCESS_STEP">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:03:11 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_process_step" id="E3030581-CBF3-61B6-DFE0-9E2AE8A82949">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:56:13 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_created_at" id="2E254CBA-56D1-EFC2-5612-283AE104F4B6">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:56:29 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_updated_at" id="D3EA7974-E7C3-1E41-A70E-10EED35CA36F">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:56:46 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_finished_at" id="845A395C-5FCC-C30F-C41D-218B0EEDA8C6">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:57:00 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_step" id="5E327D3E-AA3E-A31D-C94C-32358341DC40">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 16:04:34 UTC</createdTime>
+<generatorID>8C016855-0B40-6725-004D-DC693F0C5D4B</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>31C82E31-25B2-CC44-3619-7EE9909F62F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_process" id="B8A24401-D6ED-BED1-34E4-B0E197E67715">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 16:33:06 UTC</createdTime>
+<generatorID>9CEE5510-520F-6D9F-E33C-590E81162C4E</generatorID>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C5EDC18-B6A9-1465-0D3B-224B447A2CCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD23A027-F29A-850D-E8B2-5907712AA35C" name="T_GRW_PROCESS_STEP PK">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 15:56:27 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3030581-CBF3-61B6-DFE0-9E2AE8A82949</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

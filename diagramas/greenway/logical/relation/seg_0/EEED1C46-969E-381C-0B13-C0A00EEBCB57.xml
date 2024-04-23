@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_31" directorySegmentName="seg_0" id="EEED1C46-969E-381C-0B13-C0A00EEBCB57">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 17:00:58 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<engineerTo>
+<item key="24D73037-6732-E09F-63DE-2265CEB4E38A" value="true"/>
+</engineerTo>
+<sourcePk>330A3F47-A2D9-2DF2-9E58-8497001EC60B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7B95C1AF-33CC-EC2C-B8F4-6FCB751F2343</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8713C762-4E04-8639-D186-2B273EDAB50B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="greenway_der" id="45759832-DCF7-3732-E9A5-DD4FCF23FE22" version="3.5">
+<createdBy>Lucas Araujo</createdBy>
+<createdTime>2024-04-13 14:12:23 UTC</createdTime>
+<ownerDesignName>greenway_der</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>45759832-DCF7-3732-E9A5-DD4FCF23FE22</designId>
+</OSDM_Design>
