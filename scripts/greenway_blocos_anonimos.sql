@@ -1,3 +1,4 @@
+set SERVEROUTPUT ON;
 -- Mostra a quantidade de processos atríbuidos por empresas cadastradas no Greenway
 DECLARE
 	CURSOR c_number_of_processes_by_collaborator IS

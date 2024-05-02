@@ -99,10 +99,10 @@ INSERT INTO T_GRW_MEASUREMENT_TYPE (id_measurement_type, ds_name, tx_description
 VALUES (SEQ_GRW_MEASUREMENT_TYPE.NEXTVAL, 'Geração de Resíduos', 'Medição da quantidade e tipo de resíduos gerados pelas operações da empresa.', SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_MEASUREMENT_TYPE (id_measurement_type, ds_name, tx_description, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_MEASUREMENT_TYPE.NEXTVAL, 'Consumo de Água', 'Medição do consumo de água potável ou outros recursos hídricos pela empresa.', SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_MEASUREMENT_TYPE.NEXTVAL, 'Consumo de �?gua', 'Medição do consumo de água potável ou outros recursos hídricos pela empresa.', SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_MEASUREMENT_TYPE (id_measurement_type, ds_name, tx_description, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_MEASUREMENT_TYPE.NEXTVAL, 'Índice de Reciclagem', 'Medição da proporção de materiais reciclados em relação ao total de resíduos gerados.', SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_MEASUREMENT_TYPE.NEXTVAL, '�?ndice de Reciclagem', 'Medição da proporção de materiais reciclados em relação ao total de resíduos gerados.', SYSTIMESTAMP, NULL, NULL);
 
 
 --T_GRW_STEP
@@ -161,20 +161,20 @@ VALUES (SEQ_GRW_RESOURCE.NEXTVAL, 2, 'Painel Solar', 500.00, 'Dispositivo que co
 
 -- T_GRW_COMPANY
 
-INSERT INTO T_GRW_COMPANY (id_company, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_COMPANY.NEXTVAL, 1, 'Empresa A', 'Descrição da Empresa A', 1000000.00, 100, '12345678901234', SYSTIMESTAMP, NULL, NULL);
+INSERT INTO T_GRW_COMPANY (id_company, id_sector, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at)
+VALUES (SEQ_GRW_COMPANY.NEXTVAL, 1, 1, 'Empresa A', 'Descri��o da Empresa A', 1000000.00, 100, '12345678901234', SYSTIMESTAMP);
 
-INSERT INTO T_GRW_COMPANY (id_company, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_COMPANY.NEXTVAL, 2, 'Empresa B', 'Descrição da Empresa B', 500000.00, 50, '98765432109876', SYSTIMESTAMP, NULL, NULL);
+INSERT INTO T_GRW_COMPANY (id_company, id_sector, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at)
+VALUES (SEQ_GRW_COMPANY.NEXTVAL, 2, 2, 'Empresa B', 'Descri��o da Empresa B', 1000000.00, 50, '98765432109876', SYSTIMESTAMP);
 
-INSERT INTO T_GRW_COMPANY (id_company, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_COMPANY.NEXTVAL, 3, 'Empresa C', 'Descrição da Empresa C', 750000.00, 75, '24681357913579', SYSTIMESTAMP, NULL, NULL);
+INSERT INTO T_GRW_COMPANY (id_company, id_sector, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at)
+VALUES (SEQ_GRW_COMPANY.NEXTVAL, 3, 3, 'Empresa C', 'Descri��o da Empresa C', 1000000.00, 75, '24681357913579', SYSTIMESTAMP);
 
-INSERT INTO T_GRW_COMPANY (id_company, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_COMPANY.NEXTVAL, 4, 'Empresa D', 'Descrição da Empresa D', 2000000.00, 200, '13579246802468', SYSTIMESTAMP, NULL, NULL);
+INSERT INTO T_GRW_COMPANY (id_company, id_sector, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at)
+VALUES (SEQ_GRW_COMPANY.NEXTVAL, 4, 4, 'Empresa D', 'Descri��o da Empresa D', 1000000.00, 200, '13579246802468', SYSTIMESTAMP);
 
-INSERT INTO T_GRW_COMPANY (id_company, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_COMPANY.NEXTVAL, 5, 'Empresa E', 'Descrição da Empresa E', 300000.00, 30, '80246801357924', SYSTIMESTAMP, NULL, NULL);
+INSERT INTO T_GRW_COMPANY (id_company, id_sector, id_address, ds_name, tx_description, vl_current_revenue, nr_size, nr_cnpj, dt_created_at)
+VALUES (SEQ_GRW_COMPANY.NEXTVAL, 5, 5, 'Empresa E', 'Descri��o da Empresa E', 1000000.00, 30, '80246801357924', SYSTIMESTAMP);
 
 
 -- T_GRW_USER
@@ -279,7 +279,7 @@ INSERT INTO T_GRW_SUSTAINABLE_GOAL (id_sustainable_goal, ds_name, tx_description
 VALUES (SEQ_GRW_SUSTAINABLE_GOAL.NEXTVAL, 'Reciclagem de Resíduos', 'Descrição da meta: Aumentar a taxa de reciclagem de resíduos para 80%', 80.00, SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_SUSTAINABLE_GOAL (id_sustainable_goal, ds_name, tx_description, vl_target, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_SUSTAINABLE_GOAL.NEXTVAL, 'Conservação de Água', 'Descrição da meta: Reduzir o consumo de água em 25%', 25.00, SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_SUSTAINABLE_GOAL.NEXTVAL, 'Conservação de �?gua', 'Descrição da meta: Reduzir o consumo de água em 25%', 25.00, SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_SUSTAINABLE_GOAL (id_sustainable_goal, ds_name, tx_description, vl_target, dt_created_at, dt_updated_at, dt_finished_at)
 VALUES (SEQ_GRW_SUSTAINABLE_GOAL.NEXTVAL, 'Preservação da Biodiversidade', 'Descrição da meta: Aumentar a preservação da biodiversidade em áreas adjacentes à empresa', 45.00, SYSTIMESTAMP, NULL, NULL);
@@ -297,7 +297,7 @@ INSERT INTO T_GRW_BADGE (id_badge, id_sustainable_goal, id_badge_level, ds_name,
 VALUES (SEQ_GRW_BADGE.NEXTVAL, 3, 3, 'Badge de Reciclagem de Resíduos', 'Descrição da badge: Reconhecimento por aumento na taxa de reciclagem de resíduos', 'Critérios para obtenção da badge de reciclagem de resíduos', '2', 'url_imagem3.jpg', SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_BADGE (id_badge, id_sustainable_goal, id_badge_level, ds_name, tx_description, ds_criteria, st_badge, url_image, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_BADGE.NEXTVAL, 4, 1, 'Badge de Conservação de Água', 'Descrição da badge: Reconhecimento por redução no consumo de água', 'Critérios para obtenção da badge de conservação de água', '0', 'url_imagem4.jpg', SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_BADGE.NEXTVAL, 4, 1, 'Badge de Conservação de �?gua', 'Descrição da badge: Reconhecimento por redução no consumo de água', 'Critérios para obtenção da badge de conservação de água', '0', 'url_imagem4.jpg', SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_BADGE (id_badge, id_sustainable_goal, id_badge_level, ds_name, tx_description, ds_criteria, st_badge, url_image, dt_created_at, dt_updated_at, dt_finished_at)
 VALUES (SEQ_GRW_BADGE.NEXTVAL, 5, 2, 'Badge de Preservação da Biodiversidade', 'Descrição da badge: Reconhecimento por ações de preservação da biodiversidade', 'Critérios para obtenção da badge de preservação da biodiversidade', '1', 'url_imagem5.jpg', SYSTIMESTAMP, NULL, NULL);
@@ -351,7 +351,7 @@ INSERT INTO T_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS (id_sustainable_improvement_ac
 VALUES (SEQ_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS.NEXTVAL, 3, 'Ação de Reciclagem de Resíduos', 'Instruções para implementação da ação de reciclagem de resíduos', '2', 3, SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS (id_sustainable_improvement_actions, id_sustainable_goal, ds_name, tx_instruction, st_sustainable_action, nr_priority, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS.NEXTVAL, 4, 'Ação de Conservação de Água', 'Instruções para implementação da ação de conservação de água', '0', 1, SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS.NEXTVAL, 4, 'Ação de Conservação de �?gua', 'Instruções para implementação da ação de conservação de água', '0', 1, SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS (id_sustainable_improvement_actions, id_sustainable_goal, ds_name, tx_instruction, st_sustainable_action, nr_priority, dt_created_at, dt_updated_at, dt_finished_at)
 VALUES (SEQ_GRW_SUSTAINABLE_IMPROVEMENT_ACTIONS.NEXTVAL, 5, 'Ação de Preservação da Biodiversidade', 'Instruções para implementação da ação de preservação da biodiversidade', '1', 2, SYSTIMESTAMP, NULL, NULL);
@@ -369,10 +369,10 @@ INSERT INTO T_GRW_MEASUREMENT (id_measurement, id_measurement_type, id_sustainab
 VALUES (SEQ_GRW_MEASUREMENT.NEXTVAL, 3, 3, 'Medição de Resíduos Reciclados', 'Descrição da medição de resíduos reciclados', SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_MEASUREMENT (id_measurement, id_measurement_type, id_sustainable_goal, ds_name, tx_description, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_MEASUREMENT.NEXTVAL, 4, 4, 'Medição de Consumo de Água', 'Descrição da medição de consumo de água', SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_MEASUREMENT.NEXTVAL, 4, 4, 'Medição de Consumo de �?gua', 'Descrição da medição de consumo de água', SYSTIMESTAMP, NULL, NULL);
 
 INSERT INTO T_GRW_MEASUREMENT (id_measurement, id_measurement_type, id_sustainable_goal, ds_name, tx_description, dt_created_at, dt_updated_at, dt_finished_at)
-VALUES (SEQ_GRW_MEASUREMENT.NEXTVAL, 5, 5, 'Medição de Área de Preservação', 'Descrição da medição de área de preservação', SYSTIMESTAMP, NULL, NULL);
+VALUES (SEQ_GRW_MEASUREMENT.NEXTVAL, 5, 5, 'Medição de �?rea de Preservação', 'Descrição da medição de área de preservação', SYSTIMESTAMP, NULL, NULL);
 
 
 -- T_GRW_IMPROVEMENT_MEASUREMENT
