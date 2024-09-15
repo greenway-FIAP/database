@@ -83,7 +83,6 @@ END;
 /
 
 -- FUNÇÃO QUE RECEBE OS DADOS DE UMA TABELA E TRANSFORMA PARA O FORMATO JSON
-drop function transform_to_json;
 CREATE OR REPLACE FUNCTION transform_to_json(p_input_data IN VARCHAR2)
 RETURN CLOB
 IS
@@ -146,7 +145,6 @@ END transform_to_json;
 ------------------------------------------------------------
 
 -- FUNÇÃO QUE SUBSTITUI UMA PPROCEDURE JA EXISTENTE
-DROP FUNCTION f_quantity_badges_by_process;
 CREATE OR REPLACE FUNCTION f_quantity_badges_by_process 
 RETURN VARCHAR2 AS
     CURSOR c_quantity_badges_by_process IS
