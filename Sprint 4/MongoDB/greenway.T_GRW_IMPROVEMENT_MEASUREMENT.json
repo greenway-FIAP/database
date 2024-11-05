@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "67281a0e922130727345136d"
+  },
+  "id_sustainable_improvement_actions": {
+    "$oid": "67281992922130727345136b"
+  },
+  "id_measurement": {
+    "$oid": "67281029922130727345135d"
+  },
+  "tx_description": "Descrição da melhoria na medição de emissões de CO2",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:49:18.427Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

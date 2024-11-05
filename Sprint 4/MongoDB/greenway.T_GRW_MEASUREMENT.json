@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "672819d4922130727345136c"
+  },
+  "id_measurement_type": {
+    "$oid": "67281029922130727345135d"
+  },
+  "id_sustainable_goal": {
+    "$oid": "6728184e9221307273451367"
+  },
+  "ds_name": "Medição de Emissões de CO2",
+  "tx_description": "Descrição da medição de emissões de CO2",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:48:20.324Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

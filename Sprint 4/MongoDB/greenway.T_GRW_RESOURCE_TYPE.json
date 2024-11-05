@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "67280f83922130727345135a"
+  },
+  "ds_name": "Matéria-Prima",
+  "tx_description": "Recursos naturais ou produtos básicos utilizados na fabricação de produtos.",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:04:19.226Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "672814859221307273451363"
+  },
+  "id_user": {
+    "$oid": "672814579221307273451362"
+  },
+  "id_company": {
+    "$oid": "672814219221307273451361"
+  },
+  "nr_phone": "1122334455",
+  "ds_role": "Representante de Vendas",
+  "ds_name": "João da Silva",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:25:41.733Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

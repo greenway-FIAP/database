@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "672818a99221307273451368"
+  },
+  "id_sustainable_goal": {
+    "$oid": "6728184e9221307273451367"
+  },
+  "id_badge_level": {
+    "$oid": "67281019922130727345135c"
+  },
+  "ds_name": "Badge de Redução de Emissões de CO2",
+  "tx_description": "Descrição da badge: Reconhecimento por redução de emissões de dióxido de carbono",
+  "ds_criteria": "Critérios para obtenção da badge de redução de emissões de CO2",
+  "st_badge": "0",
+  "url_image": "url_imagem1.jpg",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:43:21.184Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

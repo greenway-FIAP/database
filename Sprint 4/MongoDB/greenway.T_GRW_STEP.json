@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6728103a922130727345135e"
+  },
+  "ds_name": "Preparação de Matéria-Prima",
+  "tx_description": "Preparação inicial dos materiais necessários para o processo de produção.",
+  "nr_estimated_time": 24.5,
+  "st_step": "0",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:07:22.209Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

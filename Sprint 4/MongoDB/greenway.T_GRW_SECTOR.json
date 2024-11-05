@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "67280f289221307273451359"
+  },
+  "ds_name": "Tecnologia",
+  "tx_description": "Setor responsável pelo desenvolvimento e manutenção de sistemas de informação.",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:02:48.439Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

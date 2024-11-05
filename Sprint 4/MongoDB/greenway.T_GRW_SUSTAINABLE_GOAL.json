@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6728184e9221307273451367"
+  },
+  "ds_name": "Redução de Emissões de CO2",
+  "tx_description": "Descrição da meta: Reduzir as emissões de dióxido de carbono em 20%",
+  "vl_target": 20,
+  "dt_created_at": {
+    "$date": "2024-11-04T00:41:50.926Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "672817619221307273451364"
+  },
+  "id_company": {
+    "$oid": "672814219221307273451361"
+  },
+  "id_company_representative": {
+    "$oid": "672814859221307273451363"
+  },
+  "ds_name": "Produção de Produto A",
+  "st_process": "0",
+  "nr_priority": 1,
+  "tx_description": "Descrição do processo de produção do Produto A",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:37:53.619Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

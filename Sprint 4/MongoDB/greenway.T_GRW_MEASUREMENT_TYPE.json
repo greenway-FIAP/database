@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "67281029922130727345135d"
+  },
+  "ds_name": "Consumo de Energia",
+  "tx_description": "Medição do consumo de energia elétrica, gás ou outras fontes de energia.",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:07:05.618Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

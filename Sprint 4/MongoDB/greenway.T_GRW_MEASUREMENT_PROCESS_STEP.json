@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "67281adc922130727345136e"
+  },
+  "id_process_step": {
+    "$oid": "67281968922130727345136a"
+  },
+  "id_measurement": {
+    "$oid": "67281029922130727345135d"
+  },
+  "nr_result": 123.45,
+  "dt_created_at": {
+    "$date": "2024-11-04T00:52:44.617Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

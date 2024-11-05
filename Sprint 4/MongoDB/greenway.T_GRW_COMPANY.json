@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "672814219221307273451361"
+  },
+  "id_sector": {
+    "$oid": "67280f289221307273451359"
+  },
+  "id_address": {
+    "$oid": "67281054922130727345135f"
+  },
+  "ds_name": "Empresa A",
+  "tx_description": "Descrição da Empresa A",
+  "vl_current_revenue": 1000000,
+  "nr_size": 100,
+  "nr_cnpj": "12345678901234",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:24:01.069Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

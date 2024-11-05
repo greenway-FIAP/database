@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "67280ea89221307273451358"
+  },
+  "ds_title": "Administrador",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:00:40.756Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

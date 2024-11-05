@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "6728107f9221307273451360"
+  },
+  "ds_name": "Papel Reciclado",
+  "vl_cost_per_unity": 2.5,
+  "tx_description": "Papel produzido a partir de material reciclado.",
+  "ds_unit_of_measurement": "Pacote",
+  "nr_availability": 500,
+  "dt_created_at": {
+    "$date": "2024-11-04T00:08:31.042Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

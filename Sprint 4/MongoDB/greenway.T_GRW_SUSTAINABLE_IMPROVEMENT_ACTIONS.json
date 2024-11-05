@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "67281992922130727345136b"
+  },
+  "id_sustainable_goal": {
+    "$oid": "6728184e9221307273451367"
+  },
+  "ds_name": "Ação de Redução de Emissões de CO2",
+  "tx_instruction": "Instruções para implementação da ação de redução de emissões de CO2",
+  "st_sustainable_action": "0",
+  "nr_priority": 1,
+  "dt_created_at": {
+    "$date": "2024-11-04T00:47:14.686Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

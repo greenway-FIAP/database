@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "672818319221307273451366"
+  },
+  "id_product_type": {
+    "$oid": "67280f94922130727345135b"
+  },
+  "id_process": {
+    "$oid": "672817619221307273451364"
+  },
+  "ds_name": "Produto A",
+  "tx_description": "Descrição do Produto A",
+  "vl_sale_price": 100,
+  "vl_cost_price": 50,
+  "nr_weight": 0.5,
+  "dt_created_at": {
+    "$date": "2024-11-04T00:41:21.536Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

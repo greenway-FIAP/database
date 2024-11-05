@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "672814579221307273451362"
+  },
+  "id_user_type": {
+    "$oid": "67280ea89221307273451358"
+  },
+  "ds_email": "usuario1@example.com",
+  "ds_password": "senha123",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:24:55.353Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

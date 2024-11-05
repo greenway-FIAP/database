@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "672819009221307273451369"
+  },
+  "id_process": {
+    "$oid": "672817619221307273451364"
+  },
+  "id_badge": {
+    "$oid": "672818a99221307273451368"
+  },
+  "dt_expiration_date": {
+    "$date": "2024-12-31T00:00:00.000Z"
+  },
+  "url_badge": "url_badge1.jpg",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:44:48.121Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

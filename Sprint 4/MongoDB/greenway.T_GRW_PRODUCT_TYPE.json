@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "67280f94922130727345135b"
+  },
+  "ds_name": "Eletrônicos",
+  "tx_description": "Produtos eletrônicos de consumo, como smartphones, laptops e tablets.",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:04:36.570Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]

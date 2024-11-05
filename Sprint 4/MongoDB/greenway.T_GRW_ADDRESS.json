@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "67281054922130727345135f"
+  },
+  "ds_street": "Rua das Flores",
+  "ds_zip_code": "12345678",
+  "ds_number": "123",
+  "ds_uf": "SP",
+  "ds_neighborhood": "Centro",
+  "ds_city": "São Paulo",
+  "dt_created_at": {
+    "$date": "2024-11-04T00:07:48.671Z"
+  },
+  "dt_updated_at": null,
+  "dt_finished_at": null
+}]
